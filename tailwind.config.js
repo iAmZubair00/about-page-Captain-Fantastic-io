@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       colors: {
         footerBG: "#F9F9F9",
         customGray: "#686868",
@@ -38,6 +41,7 @@ module.exports = {
         clientsBG: "url('./assets/images/children-at-disco.jpg')",
         teamBG: "url('./assets/images/gallery-bg.jpg')",
         blueBG: "url('./assets/images/blue-bg.jpg')",
+        valuesBG: "url('./assets/images/wellbeing-girls-hugging.jpg')",
       },
       backgroundPosition: {
         "top-center": "top center",
@@ -53,13 +57,17 @@ module.exports = {
         "25vw": "25vw",
         "70px": "70px",
         "49%": "49%",
+        "80%": "80%",
+        "30%": "30%",
         "7%": "7%",
         "12%": "12%",
         "1%": "1%",
-      },
-      padding: {
         "10%": "10%",
         "15%": "15%",
+        "5%": "5%",
+        "3%": "3%",
+        "5px": "5px",
+        "13px": "13px",
       },
       letterSpacing: {
         "0.6px": "0.6px",
@@ -82,6 +90,10 @@ module.exports = {
       boxShadow: {
         customBoxShadow: "0 2px 6px rgb(0 0 0 / 10%)",
         sbmtBtnShadow: "0px 0px 25px 5px rgb(0 0 0 / 20%)",
+        getInTouchBtnShadow: "0px 0px 25px 5px #ffffff",
+      },
+      dropShadow: {
+        bannerTextShadow: "5px 5px 5px #fff",
       },
       lineHeight: {
         0: "0",
@@ -90,6 +102,17 @@ module.exports = {
       },
       fontSize: {
         "40px": "40px",
+        "2.5rem": "2.5rem",
+        "5rem": "5rem",
+      },
+      flexGrow: {
+        2: "2",
+        3: "3",
+      },
+      flex: {
+        basis43: "0 1 43%",
+        basis20: "0 1 35%",
+        basis60: "0 1 55%",
       },
     },
   },

@@ -11,6 +11,7 @@ module.exports = {
         footerBG: "#F9F9F9",
         customGray: "#686868",
         customBlue: "#00A3E1",
+        bannerOverlayColor: "#0A0A0A",
         dropDownBorderColor: "#13aff0",
         ddBorderBottomColor: "#f1f1f1",
         ddItemHoverBG: "#F8F8F8",
@@ -37,6 +38,7 @@ module.exports = {
       backgroundImage: {
         contactUsTexture: "url('./assets/images/colorful-texture.jpg')",
         headerBannerBG: "url('./assets/images/dukesmeadowgolfclub.jpg')",
+        headerBannerOverlay: "url('./assets/images/header-opacity.jpg')",
         aboutCFbg: "url('./assets/images/bg01.jpg')",
         clientsBG: "url('./assets/images/children-at-disco.jpg')",
         teamBG: "url('./assets/images/gallery-bg.jpg')",
@@ -104,6 +106,7 @@ module.exports = {
         "40px": "40px",
         "2.5rem": "2.5rem",
         "5rem": "5rem",
+        "14px": "14px",
       },
       flexGrow: {
         2: "2",

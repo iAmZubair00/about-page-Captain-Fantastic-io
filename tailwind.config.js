@@ -50,6 +50,7 @@ module.exports = {
         "bottom-center": "bottom center",
       },
       screens: {
+        lg1191: "1191px",
         lg1200: "1200px",
         lg1150: "1150px",
         md861: "861px",
@@ -107,6 +108,7 @@ module.exports = {
         "2.5rem": "2.5rem",
         "5rem": "5rem",
         "14px": "14px",
+        "15px": "15px",
       },
       flexGrow: {
         2: "2",

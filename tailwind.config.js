@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        fontAwesome5free: ["Font Awesome 5 Free"],
       },
       colors: {
         footerBG: "#F9F9F9",
@@ -33,11 +34,15 @@ module.exports = {
         formInputsBorder: "#F2F2F2",
         grayBG: "#F1F1F1",
         grayText: "#333",
+        sideMenuText: "#555",
+        sideMenuItemBorder: "rgba(0,0,0,0.035)",
+        sideMenuArrowBG: "#fbfbfb",
         inherit: "inherit",
       },
       backgroundImage: {
         contactUsTexture: "url('./assets/images/colorful-texture.jpg')",
         headerBannerBG: "url('./assets/images/dukesmeadowgolfclub.jpg')",
+        headerBannerBGmobile: "url('./assets/images/santa.jpg')",
         headerBannerOverlay: "url('./assets/images/header-opacity.jpg')",
         aboutCFbg: "url('./assets/images/bg01.jpg')",
         clientsBG: "url('./assets/images/children-at-disco.jpg')",
@@ -71,12 +76,20 @@ module.exports = {
         "3%": "3%",
         "5px": "5px",
         "13px": "13px",
+        "15px": "15px",
+        "-15px": "-15px",
+        "27px": "27px",
+        "30px": "30px",
+        "60px": "60px",
+        "66px": "66px",
+        "300px": "300px",
       },
       letterSpacing: {
         "0.6px": "0.6px",
       },
       zIndex: {
         "-1": "-1",
+        999999: "999999",
       },
       skew: {
         "-9": "-9deg",
@@ -104,11 +117,15 @@ module.exports = {
         1.4: "1.4",
       },
       fontSize: {
+        "30px": "30px",
         "40px": "40px",
+        "60px": "60px",
         "2.5rem": "2.5rem",
         "5rem": "5rem",
         "14px": "14px",
         "15px": "15px",
+        "-15px": "-15px",
+        "11px": "11px",
       },
       flexGrow: {
         2: "2",
@@ -118,6 +135,15 @@ module.exports = {
         basis43: "0 1 43%",
         basis20: "0 1 35%",
         basis60: "0 1 55%",
+      },
+      transitionProperty: {
+        left: "left",
+      },
+      transitionTimingFunction: {
+        ease: "ease",
+      },
+      transitionDelay: {
+        0: "0ms",
       },
     },
   },

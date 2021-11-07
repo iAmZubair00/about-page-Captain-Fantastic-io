@@ -621,6 +621,10 @@ video {
   --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -649,12 +653,20 @@ video {
   top: 0px;
 }
 
+.right-auto {
+  right: auto;
+}
+
 .z-20 {
   z-index: 20;
 }
 
 .z-10 {
   z-index: 10;
+}
+
+.z-999999 {
+  z-index: 999999;
 }
 
 .mx-auto {
@@ -705,8 +717,8 @@ video {
   margin-bottom: 3rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
+.mb-28 {
+  margin-bottom: 7rem;
 }
 
 .mb-8 {
@@ -715,6 +727,18 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-px {
+  margin-top: 1px;
+}
+
+.-ml-4 {
+  margin-left: -1rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .block {
@@ -741,12 +765,12 @@ video {
   height: 100%;
 }
 
-.h-11 {
-  height: 2.75rem;
-}
-
 .h-14 {
   height: 3.5rem;
+}
+
+.max-h-full {
+  max-height: 100%;
 }
 
 .w-full {
@@ -773,16 +797,8 @@ video {
   width: 5rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-56 {
   width: 14rem;
-}
-
-.w-80\% {
-  width: 80%;
 }
 
 .w-14 {
@@ -791,6 +807,18 @@ video {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-300px {
+  width: 300px;
+}
+
+.w-60px {
+  width: 60px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-basis43 {
@@ -809,12 +837,19 @@ video {
   cursor: pointer;
 }
 
-.flex-row {
-  flex-direction: row;
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .flex-wrap {
@@ -894,6 +929,14 @@ video {
   align-self: center;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-50\% {
   border-radius: 50%;
 }
@@ -922,6 +965,10 @@ video {
   border-right-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -946,6 +993,10 @@ video {
   border-color: rgba(251, 225, 34, var(--tw-border-opacity));
 }
 
+.border-sideMenuItemBorder {
+  border-color: rgba(0,0,0,0.035);
+}
+
 .bg-customGray {
   --tw-bg-opacity: 1;
   background-color: rgba(104, 104, 104, var(--tw-bg-opacity));
@@ -959,6 +1010,11 @@ video {
 .bg-customBlue {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 163, 225, var(--tw-bg-opacity));
+}
+
+.bg-formInputsBorder {
+  --tw-bg-opacity: 1;
+  background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
 }
 
 .bg-bannerOverlayColor {
@@ -981,8 +1037,18 @@ video {
   background-color: rgba(249, 249, 249, var(--tw-bg-opacity));
 }
 
-.bg-headerBannerBG {
-  background-image: url('./assets/images/dukesmeadowgolfclub.jpg');
+.bg-ddItemHoverBG {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+}
+
+.bg-sideMenuArrowBG {
+  --tw-bg-opacity: 1;
+  background-color: rgba(251, 251, 251, var(--tw-bg-opacity));
+}
+
+.bg-headerBannerBGmobile {
+  background-image: url('./assets/images/santa.jpg');
 }
 
 .bg-headerBannerOverlay {
@@ -1043,10 +1109,6 @@ video {
   background-size: cover;
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
@@ -1096,6 +1158,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-15px {
+  padding: 15px;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1134,6 +1200,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .py-12\% {
@@ -1191,6 +1262,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -1219,12 +1295,24 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pb-30px {
+  padding-bottom: 30px;
 }
 
-.text-left {
-  text-align: left;
+.pr-60px {
+  padding-right: 60px;
+}
+
+.pl-11 {
+  padding-left: 2.75rem;
+}
+
+.pl-66px {
+  padding-left: 66px;
+}
+
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .text-center {
@@ -1245,31 +1333,22 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5rem {
-  font-size: 5rem;
+.text-30px {
+  font-size: 30px;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-14px {
   font-size: 14px;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-2\.5rem {
-  font-size: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-xl {
@@ -1282,8 +1361,9 @@ video {
   line-height: 1.5rem;
 }
 
-.text-40px {
-  font-size: 40px;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-15px {
@@ -1296,6 +1376,14 @@ video {
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .uppercase {
@@ -1316,6 +1404,10 @@ video {
 
 .leading-1\.4 {
   line-height: 1.4;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
 }
 
 .tracking-0\.6px {
@@ -1370,6 +1462,11 @@ video {
   color: rgba(71, 71, 71, var(--tw-text-opacity));
 }
 
+.text-sideMenuText {
+  --tw-text-opacity: 1;
+  color: rgba(85, 85, 85, var(--tw-text-opacity));
+}
+
 .opacity-70 {
   opacity: 0.7;
 }
@@ -1415,8 +1512,26 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-left {
+  transition-property: left;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .delay-100 {
   transition-delay: 100ms;
+}
+
+.delay-0 {
+  transition-delay: 0ms;
 }
 
 .duration-300 {
@@ -1425,6 +1540,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-ease {
+  transition-timing-function: ease;
 }
 
 .before\:absolute::before {
@@ -1517,6 +1636,10 @@ video {
   opacity: 0.6;
 }
 
+.group:target .group-target\:block {
+  display: block;
+}
+
 .group:hover .group-hover\:block {
   display: block;
 }
@@ -1525,13 +1648,33 @@ video {
   display: flex;
 }
 
+.group:focus .group-focus\:block {
+  display: block;
+}
+
+.group:active .group-active\:block {
+  display: block;
+}
+
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:w-80\% {
+    width: 80%;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
   }
 
   .md\:flex-row {
@@ -1542,21 +1685,45 @@ video {
     align-items: flex-start;
   }
 
-  .md\:justify-start {
-    justify-content: flex-start;
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
-  .md\:justify-center {
-    justify-content: center;
+  .md\:gap-0 {
+    gap: 0px;
   }
 
-  .md\:self-center {
-    align-self: center;
+  .md\:bg-headerBannerBG {
+    background-image: url('./assets/images/dukesmeadowgolfclub.jpg');
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-60px {
+    font-size: 60px;
+  }
+
+  .md\:text-2\.5rem {
+    font-size: 2.5rem;
+  }
+
+  .md\:text-40px {
+    font-size: 40px;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:w-64 {
     width: 16rem;
+  }
+
+  .lg\:bg-fixed {
+    background-attachment: fixed;
+  }
+
+  .lg\:text-5rem {
+    font-size: 5rem;
   }
 }

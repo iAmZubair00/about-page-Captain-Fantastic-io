@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
         fontAwesome5free: ["Font Awesome 5 Free"],
       },
       colors: {
@@ -82,7 +83,14 @@ module.exports = {
         "30px": "30px",
         "60px": "60px",
         "66px": "66px",
+        "74px": "74px",
         "300px": "300px",
+      },
+      minWidth: {
+        4: "1rem",
+      },
+      inset: {
+        "-3px": "-3px",
       },
       letterSpacing: {
         "0.6px": "0.6px",
@@ -97,6 +105,8 @@ module.exports = {
       borderWidth: {
         fullVW: "100vw",
         "200px": "200px",
+        "5px": "5px",
+        medium: "medium",
       },
       borderRadius: {
         "50%": "50%",

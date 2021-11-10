@@ -11,7 +11,8 @@ module.exports = {
       },
       colors: {
         footerBG: "#F9F9F9",
-        customGray: "#686868",
+        customGray: "#575757",
+        customGrayHover: "#686868",
         customBlue: "#00A3E1",
         bannerOverlayColor: "#0A0A0A",
         dropDownBorderColor: "#13aff0",
@@ -38,11 +39,13 @@ module.exports = {
         sideMenuText: "#555",
         sideMenuItemBorder: "rgba(0,0,0,0.035)",
         sideMenuArrowBG: "#fbfbfb",
+        sideMenuOverlayEffect: "rgba(0,0,0,0.3)",
         inherit: "inherit",
       },
       backgroundImage: {
         contactUsTexture: "url('./assets/images/colorful-texture.jpg')",
         headerBannerBG: "url('./assets/images/dukesmeadowgolfclub.jpg')",
+        headerMenuDDbg: "url('./assets/images/male-pirate-avatar.png')",
         headerBannerBGmobile: "url('./assets/images/santa.jpg')",
         headerBannerOverlay: "url('./assets/images/header-opacity.jpg')",
         aboutCFbg: "url('./assets/images/bg01.jpg')",
@@ -50,6 +53,9 @@ module.exports = {
         teamBG: "url('./assets/images/gallery-bg.jpg')",
         blueBG: "url('./assets/images/blue-bg.jpg')",
         valuesBG: "url('./assets/images/wellbeing-girls-hugging.jpg')",
+      },
+      backgroundSize: {
+        "120px": "120px",
       },
       backgroundPosition: {
         "top-center": "top center",
@@ -71,13 +77,16 @@ module.exports = {
         "7%": "7%",
         "12%": "12%",
         "1%": "1%",
+        "9%": "9%",
         "10%": "10%",
         "15%": "15%",
+        "20%": "20%",
         "5%": "5%",
         "3%": "3%",
         "5px": "5px",
         "13px": "13px",
         "15px": "15px",
+        "18px": "18px",
         "-15px": "-15px",
         "27px": "27px",
         "30px": "30px",
@@ -91,6 +100,7 @@ module.exports = {
       },
       inset: {
         "-3px": "-3px",
+        "3.7rem": "3.7rem",
       },
       letterSpacing: {
         "0.6px": "0.6px",
@@ -105,12 +115,14 @@ module.exports = {
       borderWidth: {
         fullVW: "100vw",
         "200px": "200px",
-        "5px": "5px",
+        "3px": "3px",
+        "1px": "1px",
         medium: "medium",
       },
       borderRadius: {
         "50%": "50%",
         "3px": "3px",
+        "2px": "2px",
         "50px": "50px",
       },
       boxShadow: {
@@ -148,6 +160,7 @@ module.exports = {
       },
       transitionProperty: {
         left: "left",
+        display: "display",
       },
       transitionTimingFunction: {
         ease: "ease",
